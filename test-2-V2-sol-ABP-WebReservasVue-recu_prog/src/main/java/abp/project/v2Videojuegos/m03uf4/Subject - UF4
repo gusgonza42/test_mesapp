@@ -1,0 +1,35 @@
+Personajes de Plataformas
+1. Mario (1981)
+2. Link (1986)
+3. Sonic (1986)
+
+Personajes de Aventura
+1. Lara Croft (1996)
+2. Nathan Drake (2007)
+3. Geralt (2007)
+
+Personajes de Acción
+
+1. Master Chief (2001)
+2. Kratos (2005)
+3. Aloy (2017)
+
+1. Define una clase base llamada Personaje con losa tributos de la imagen. Implementa sus métodos si los tiene. (1 punto)
+2. Crea tres clases derivadas de Personaje, cada una representando un tipo específico de personaje de videojuego: (4 puntos)
+- PersonajePlataforma: Cunado habla() dice: Soy plataforma, cuando juega() imprime "---___--_-_-".
+- PersonajeAventura: Cuando habla() dice: Soy Aventura, cuando juega() imprime "d=||======D"
+- PersonajeAccion: Cuando habla() dice: Soy Acción y no juega().
+3. Agrega todos los objetos de la imagen en una colección en el main. (1 punto)
+4. Agrega el menú siguiente. Este menú me ha de permitir escoger un personaje por posición (de 1 a X donde X es el tamaño del array).
+
+Como debe ser el menú:
+Menú UF4
+1) Seleccionar personaje.
+2) Salir.
+
+Una vez seleccionado me ha de permitir ejecutar.
+Menú UF4-Personaje
+1) Hablar.
+2) Jugar.
+3) Atras.
+5. Implementa las funcionalidades de los menús (1 punto)
