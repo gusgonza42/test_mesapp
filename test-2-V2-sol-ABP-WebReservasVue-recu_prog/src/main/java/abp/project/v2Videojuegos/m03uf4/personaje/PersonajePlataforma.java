@@ -9,6 +9,7 @@ public class PersonajePlataforma extends Personaje{
     //Cuando habla() dice: Soy Plataforma
     public void habla(){
         System.out.println("Soy Plataforma");
+       // mostrarMensaje("Soy Plataforma. yow");
     }
     @Override
     //cuenado juega() imprime ---___--_-_-
@@ -16,9 +17,9 @@ public class PersonajePlataforma extends Personaje{
         System.out.println("---___--_-_-");
     }
 
-    /*@Override
+    @Override
     public String toString() {
-        return "Personajes de Plataformas{" + "nombre=" + getNombre() + ", year=" + getYear() + '}';
-    }*/
+        return "Personaje Plataforma{" + "nombre=" + nombre + ", year=" + year + '}';
+    }
 
 }

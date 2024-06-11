@@ -8,8 +8,8 @@ public class Personaje {
     public int year;
 
     public Personaje(String nombre, int year) {
-        this.nombre = nombre;
-        this.year = year;
+        setNombre(nombre);
+        setYear(year);
     }
 
     // Getters and Setters
@@ -35,7 +35,6 @@ public class Personaje {
     }
 
 
-    @Override
     public String toString() {
         return "Personaje{" + "nombre=" + nombre + ", year=" + year + '}';
     }

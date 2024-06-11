@@ -16,4 +16,9 @@ public class PersonajeAventura extends Personaje{
         System.out.println("d=||======D");
     }
 
+    @Override
+    public String toString() {
+        return "Personaje Aventura {" + "nombre=" + nombre + ", year=" + year + '}';
+    }
+
 }

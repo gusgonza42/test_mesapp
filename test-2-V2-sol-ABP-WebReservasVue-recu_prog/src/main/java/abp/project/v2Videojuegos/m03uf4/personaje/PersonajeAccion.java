@@ -18,4 +18,8 @@ public class PersonajeAccion extends Personaje{
     public void juega(){
         System.out.println("No juego");
     }
+    @Override
+    public String toString() {
+        return "Personaje Accion {" + "nombre=" + nombre + ", year=" + year + '}';
+    }
 }
